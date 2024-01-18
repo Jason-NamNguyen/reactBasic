@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className='UserLogin'> <UserLogin /> </div>
-        <div className='RegisterForm'> <RegisterForm /> </div>
+        {/* <div className='RegisterForm'> <RegisterForm /> </div> */}
       </header>
     </div>
   );
