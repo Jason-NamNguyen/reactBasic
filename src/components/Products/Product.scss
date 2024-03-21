@@ -1,0 +1,49 @@
+.product-container {
+    display: flex;
+
+    .content-left {
+        width: 25%;
+        padding: 10px;
+    }
+
+    .content-right {
+        width: 75%;
+        border: none;
+        padding: 10px;
+        border: 1px solid green
+    }
+
+    .product-title {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 0 10px 0;
+    }
+
+    .product-prize {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px 0 10px 0;
+    }
+
+    .product-size {
+        width: 15%;
+        padding: 5px 0 5px 0;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+
+    }
+
+    .product-quantity {
+        border-radius: 5px;
+        padding: 5px 0 5px 0;
+        margin: 10px 0 10px 0;
+        font-size: 12px;
+    }
+
+    .product-buy-now {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
