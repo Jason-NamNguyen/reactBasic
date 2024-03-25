@@ -3,6 +3,8 @@ import './App.scss';
 import Home from './components/Home.js';
 import AddNewProduct from './components/AddNewProduct.js';
 import Product from './components/Products/Product.js';
+import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
 function App() {
   return (
     <div className="App">
