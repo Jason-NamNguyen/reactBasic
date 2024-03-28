@@ -8,10 +8,10 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header-content-left">
+      {/*  <header className="App-header-content-left">
         <img src={logo} className="App-logo" alt="logo" />
         <Home />
-      </header>
+      </header> */}
       <div className='content-right'>
         <AddNewProduct />
         <hr />

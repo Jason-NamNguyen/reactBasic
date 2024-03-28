@@ -1,0 +1,25 @@
+.product-size {
+    .list-size {
+        display: flex;
+        gap: 5px;
+        flex-flow: wrap;
+        padding: 5px 0 10px 0;
+
+        div {
+            border: 1.5px solid rgb(199, 199, 199);
+            border-radius: 3px;
+            width: 40px;
+            height: 20px;
+            cursor: pointer;
+            font-weight: 500;
+            align-content: center;
+            text-align: center;
+
+        }
+
+        .active-size {
+            border: 1.5px solid rgb(45, 107, 239);
+        }
+    }
+
+}

@@ -7,8 +7,9 @@
 
         .image-up {
             width: 100%;
+            cursor: pointer;
 
-            .image {
+            img {
                 width: 100%;
             }
         }
@@ -22,11 +23,17 @@
             .image-small {
                 width: 25%;
                 cursor: pointer;
-                border: 1px solid grey;
+                // border: 1px solid grey;
 
-                .image {
-                    width: 100%;
+                .active-image {
+                    border: 1px solid green
                 }
+
+                img {
+                    width: 100%;
+
+                }
+
             }
 
         }
@@ -51,14 +58,14 @@
         padding: 10px 0 10px 0;
     }
 
-    .product-size {
+    /*  .product-size {
         width: 40px;
         padding: 5px 0 5px 0;
         border: 1px solid black;
         border-radius: 5px;
         text-align: center;
 
-    }
+    } */
 
     .product-quantity {
         font-size: 1px;
