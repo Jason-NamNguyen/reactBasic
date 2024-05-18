@@ -53,8 +53,8 @@ const Product = () => {
                         <ProductSize />
                     </div>
                     <div>
-                        <div className="procduct-quantity">Quantity</div>
-                        <input className="product-quantity" min={1} type="number"></input>
+                        <div>Quantity</div>
+                        <input className="product-quantity" min={1} defaultValue={1} type="number"></input>
                     </div>
                     <button className="product-buy-now">Buy Now</button>
                 </div>
